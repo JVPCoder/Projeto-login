@@ -34,13 +34,17 @@ section#login{
     width: 250px;
     height: 500px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.453);
+    box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.693);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
     display: block;
+    box-shadow: 0px 0px 20px gray;
     background: url(../images/backlogin.png) no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     height: 300px;
 }
