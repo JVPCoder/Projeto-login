@@ -3,7 +3,8 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
     
     section#login{
-        width: 90vw;
+        width: 80vw;
+        height: 300px;
     }
 
     section#login > div#imagem{
@@ -19,9 +20,10 @@
 }
 
 @media screen and (min-width: 992px){
+    
     section#login{
-        width: 990px;
-
+        width: 950px;
+        height: 300px;
     }
 
     section#login > div#imagem{
@@ -30,16 +32,16 @@
         height: 100%;
     }
 
-    section#login > div#form{
+    section#login > div#formulario{
         float: left;
         width: 50%;
     }
 
-    div#form > h1{
+    div#formulario > h1{
         font-size: 2em;
     }
 
-    div#form > p {
+    div#formulario > p {
         font-size: 1.2em;
     }
 }
