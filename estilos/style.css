@@ -46,10 +46,19 @@ section#login > div#imagem{
     background: url(../images/backlogin.png) no-repeat;
     background-size: contain;
     background-position: center;
-    height: 300px;
+    height: 200px;
 }
 
 section#login > div#form{
     display: block;
     padding: 10px;
+}
+
+div#form > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#form > p {
+    font-size: 0.8em;
 }
